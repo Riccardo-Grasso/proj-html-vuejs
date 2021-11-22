@@ -6,7 +6,7 @@
       <!-- SEZIONE BARBER-SHOP -->
       <section class="hero-section row row-cols-2">
         <div class="col left-text d-flex">
-          <h1 class="main-title title mb-4">Barber Shop</h1>
+          <h1 class="main-title section-title mb-4">Barber Shop</h1>
           <div class="line mb-4"></div>
           <p class="text mb-4">The Pinnacle of Male Grooming</p>
           <a class="proj-link" href="#">LEARN MORE</a>

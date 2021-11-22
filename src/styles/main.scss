@@ -6,3 +6,17 @@
     object-position: center;
     justify-content: center
 }
+
+.services {
+    .icon-container {
+        img {
+           height: 90px;
+           width: 50px;
+
+           &.large {
+            width: 70px;
+        }
+        }
+        
+    }
+}
