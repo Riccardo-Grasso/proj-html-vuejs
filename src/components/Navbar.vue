@@ -1,5 +1,5 @@
 <template>
-  <nav class="d-flex align-items-center justify-content-between py-4">
+  <nav class="d-flex align-items-center justify-content-between pt-4">
     <div class="logo-container">
       <img src="@/assets/logo.png" alt="logo" />
     </div>

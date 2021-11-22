@@ -6,4 +6,21 @@
     .container { 
         padding: 0 15%;
     }
+    .title {
+        color: $proj-title-grey;
+        font-family: 'Playfair Display', serif;
+    }
+    .text {
+        color: $proj-text-grey;
+    }
+    .proj-link {
+        text-decoration: none;
+        padding: 10px 20px;
+        color: $proj-golden;
+        border: 1px solid $proj-golden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
 }

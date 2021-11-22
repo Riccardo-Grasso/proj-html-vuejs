@@ -7,4 +7,18 @@ header {
     width: 100%;
     object-fit: cover;
     object-position: center;
+
+    .left-text {
+        flex-direction: column;
+        justify-content: center;
+
+        .main-title {
+            font-size: $fs-title-big;
+        }
+        .line {
+            height: 3px;
+            background-color: $proj-golden;
+            width: 40%;
+        }
+    }
 }
