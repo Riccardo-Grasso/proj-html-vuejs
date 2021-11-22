@@ -20,3 +20,42 @@
         
     }
 }
+
+.products {
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    background-image: url("./assets/products-bg.jpg");
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: invert(0.08);
+    .products-container {
+        img {
+            width: 100%;
+        }
+        .text-golden {
+            color: $proj-golden;
+        }
+    }
+    .shaving-butter {
+        .row {
+            border-top: 3px solid $proj-golden;
+            height: 355px;
+            overflow: hidden;
+            .col-left {
+                background-image: url("./assets/butter-bg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40%;
+
+                img {
+                    width: 100%;
+                }
+            }
+            .col-right {
+                background-color: #191A1A;
+                width: 60%;
+            }
+        }
+    }
+}

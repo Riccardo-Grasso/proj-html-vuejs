@@ -9,20 +9,30 @@
     .section-title {
         color: $proj-title-grey;
         font-family: 'Playfair Display', serif;
-        font-size: $fs-titles;
+        font-size: $fs-title-section;
+    }
+    .title {
+        font-family: 'Playfair Display', serif;
+        color: $proj-golden;
+        font-size: $fs-title;
     }
     .text {
         color: $proj-text-grey;
+    }
+    .paragraph {
+        color: $proj-text-grey;
+        font-size: $fs-paragraph;
     }
     .proj-link {
         text-decoration: none;
         padding: 10px 20px;
         color: $proj-golden;
-        border: 1px solid $proj-golden;
+        border: 2px solid $proj-golden;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 33%;
+        min-width: 10%;
+        max-width: 50%;
     }
     .on-title {
         color: $proj-golden;
