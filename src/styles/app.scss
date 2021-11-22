@@ -9,6 +9,7 @@
     .title {
         color: $proj-title-grey;
         font-family: 'Playfair Display', serif;
+        font-size: $fs-titles;
     }
     .text {
         color: $proj-text-grey;
@@ -22,5 +23,12 @@
         align-items: center;
         justify-content: center;
         width: 33%;
+    }
+    .on-title {
+        color: $proj-golden;
+    }
+    .padding-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }

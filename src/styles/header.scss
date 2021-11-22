@@ -13,7 +13,7 @@ header {
         justify-content: center;
 
         .main-title {
-            font-size: $fs-title-big;
+            font-size: $fs-title-big!important;
         }
         .line {
             height: 3px;
