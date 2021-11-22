@@ -19,6 +19,7 @@ export default {
 <style lang="scss">
 @import "styles/app";
 @import "styles/header";
+@import "styles/navbar";
 @import "styles/main";
 @import "styles/footer";
 @import "styles/variables";

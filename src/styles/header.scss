@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+header {
+    background-size: 100%;
+    background-image: url("./assets/header-bg.jpg");
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
