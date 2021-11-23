@@ -12,12 +12,14 @@
     </section>
     <!-- SERVICES -->
     <section class="services">
+      #TODO forma del div
       <div
         class="container padding-section d-flex flex-column align-items-center"
       >
         <div class="on-title bolder fw-bold mb-1">MENS GROOMING</div>
         <h2 class="section-title mb-4">Services</h2>
         <!-- Creo elementi con un ciclo for -->
+        #TODO Creare un unico componente con la lista in props
         <div class="icon-container row pt-5 mb-4">
           <div
             v-for="(service, i) in servicesList"
@@ -44,7 +46,7 @@
       <div class="on-title bolder fw-bold mb-1">WE HAVE YOU COVERED</div>
       <h2 class="section-title mb-4">Avada Grooming Products</h2>
 
-      <div class="products-container row pt-3 mb-4 mx-5">
+      <div class="products-container row pt-3 mb-5 mx-5">
         <div
           v-for="(product, i) in productsList"
           :key="i"
@@ -76,6 +78,26 @@
               explicabo?
             </p>
             <a class="proj-link mb-5" href="#">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEWS -->
+    <section class="reviews">
+      <div
+        class="container padding-section d-flex flex-column align-items-center"
+      >
+        <div class="on-title bolder fw-bold mb-1">WHAT PEOPLE SAY</div>
+        <h2 class="section-title mb-4">Reviews</h2>
+
+        <div class="icon-container row pt-5 mb-4">
+          <div
+            v-for="(review, i) in reviewsList"
+            :key="i"
+            class="col d-flex flex-column align-items-center px-5"
+          >
+            <p class="paragraph text-center">{{ review.text }}</p>
+            <h6 class="text-golden mb-4 fst-italic">{{ review.name }}</h6>
           </div>
         </div>
       </div>
@@ -128,6 +150,23 @@ export default {
           img: require("@/assets/razor.png"),
           item: "Straight Razor",
           price: "$30.00",
+        },
+      ],
+      reviewsList: [
+        {
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos enim quia quasi? Suscipit quam quaerat nihil quo aspernatur consectetur, numquam ipsam, facere asperiores praesentium.",
+          photo: "",
+          name: "John Doe",
+        },
+        {
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos enim quia quasi? Suscipit quam quaerat nihil quo aspernatur consectetur, numquam ipsam, facere asperiores praesentium.",
+          photo: "",
+          name: "Pete Jones",
+        },
+        {
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos enim quia quasi? Suscipit quam quaerat nihil quo aspernatur consectetur, numquam ipsam, facere asperiores praesentium.",
+          photo: "",
+          name: "Mark Wilson",
         },
       ],
     };
