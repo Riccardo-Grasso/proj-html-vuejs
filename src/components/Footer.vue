@@ -20,7 +20,7 @@
             <div class="on-title bolder fw-bold mb-1">FOLLOW US</div>
             <div class="social-contaier">
               <a v-for="(ico, i) in socialList" :key="i" :href="ico.link">
-                <i :class="ico.icon" class="p-2 icons"></i>
+                <i :class="ico.icon" class="p-2 fs-5 icons"></i>
               </a>
             </div>
           </div>

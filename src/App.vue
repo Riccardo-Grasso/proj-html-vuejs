@@ -25,4 +25,25 @@ export default {
 @import "styles/footer";
 @import "styles/variables";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d0a024 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #be9359;
+  border-radius: 10px;
+}
 </style>
