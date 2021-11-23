@@ -11,7 +11,7 @@
         :key="i"
         class="col d-flex flex-column align-items-center px-5"
       >
-        <a href="#"
+        <a href="#" class="item"
           ><img :src="product.img" alt="product-image" class="mb-4"
         /></a>
 

@@ -30,9 +30,17 @@
     object-position: center;
     filter: invert(0.08);
     .products-container {
-        img {
-            width: 100%;
+        .item {
+            
+            img {
+                width: 100%;
+                transition: transform .3s ease-out;
+            }
+            &:hover img{
+                transform: translate(0, -15px);
+            }
         }
+        
     }
     .shaving-butter {
         .row {
