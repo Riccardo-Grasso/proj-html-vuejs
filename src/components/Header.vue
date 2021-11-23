@@ -10,7 +10,7 @@
           <h1 class="main-title section-title mb-4">Barber Shop</h1>
           <div class="line mb-4"></div>
           <p class="text mb-4">The Pinnacle of Male Grooming</p>
-          <a class="proj-link" href="#">LEARN MORE</a>
+          <a class="proj-link w-50" href="#">LEARN MORE</a>
         </div>
         <div class="col right-img">
           <img src="../assets/header-hero.png" alt="img" class="w-100" />

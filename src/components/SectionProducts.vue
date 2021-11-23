@@ -36,7 +36,7 @@
             maiores fugit perspiciatis optio ad officiis quo eius! Porro,
             explicabo?
           </p>
-          <a class="proj-link mb-5" href="#">BUY NOW</a>
+          <a class="proj-link w-50 mb-5" href="#">BUY NOW</a>
         </div>
       </div>
     </div>

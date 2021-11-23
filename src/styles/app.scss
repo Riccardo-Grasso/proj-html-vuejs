@@ -35,7 +35,13 @@
         align-items: center;
         justify-content: center;
         min-width: 10%;
-        max-width: 50%;
+        &:hover {
+            color: $proj-golden-hover;
+            border: 2px solid $proj-golden-hover;
+        }
+    }
+    .icons {
+        color: $proj-title-grey
     }
     .on-title {
         color: $proj-golden;
