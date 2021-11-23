@@ -12,14 +12,14 @@
     </section>
     <!-- SERVICES -->
     <section class="services">
-      #TODO forma del div
+      <!-- #TODO forma del div -->
       <div
         class="container padding-section d-flex flex-column align-items-center"
       >
         <div class="on-title bolder fw-bold mb-1">MENS GROOMING</div>
         <h2 class="section-title mb-4">Services</h2>
         <!-- Creo elementi con un ciclo for -->
-        #TODO Creare un unico componente con la lista in props
+        <!--  #TODO Creare un unico componente con la lista in props -->
         <div class="icon-container row pt-5 mb-4">
           <div
             v-for="(service, i) in servicesList"
