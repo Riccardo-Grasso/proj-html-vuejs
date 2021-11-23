@@ -3,9 +3,8 @@
 header {
     background-size: 100%;
     background-image: url("./assets/header-bg.jpg");
-    height: 750px;
-    width: 100%;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
     object-position: center;
     filter: invert(0.08);
 

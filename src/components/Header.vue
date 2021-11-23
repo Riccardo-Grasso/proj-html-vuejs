@@ -5,7 +5,6 @@
       <Navbar></Navbar>
       <!-- SEZIONE BARBER-SHOP -->
       <section class="hero-section row row-cols-2">
-        <!-- #TODO Inserire icone lato destro -->
         <div class="col left-text d-flex">
           <h1 class="main-title section-title mb-4">Barber Shop</h1>
           <div class="line mb-4"></div>
