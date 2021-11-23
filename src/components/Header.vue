@@ -16,6 +16,25 @@
         </div>
       </section>
     </div>
+    <div class="cards">
+      <div class="upper-card mb-2">
+        <a href="#" class="rounded">
+          <div>
+            <i class="fa fa-minus-square fs-3" aria-hidden="true"></i>
+          </div>
+          <div class="fw-bold">Demos</div>
+        </a>
+      </div>
+      <div class="lower-card mb-2">
+        <a href="#" class="rounded">
+          <div class="price fw-bold">
+            <div class="dollar">$</div>
+            <div class="number">39</div>
+          </div>
+          <div class="fw-bold sale">On Sale</div>
+        </a>
+      </div>
+    </div>
   </header>
 </template>
 

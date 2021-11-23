@@ -1,6 +1,7 @@
 @import "variables.scss";
 
 header {
+    position: relative;
     background-size: 100%;
     background-image: url("./assets/header-bg.jpg");
     background-repeat: no-repeat;
@@ -8,17 +9,76 @@ header {
     object-position: center;
     filter: invert(0.08);
 
-    .left-text {
-        flex-direction: column;
-        justify-content: center;
+    .hero-section {
+        .left-text {
+            flex-direction: column;
+            justify-content: center;
 
-        .main-title {
-            font-size: $fs-title-big!important;
+            .main-title {
+                font-size: $fs-title-big!important;
+            }
+            .line {
+                height: 3px;
+                background-color: $proj-golden;
+                width: 40%;
+            }
         }
-        .line {
-            height: 3px;
-            background-color: $proj-golden;
-            width: 40%;
+    }
+    .cards {
+        position: absolute;
+        top: 20%;
+        right: 10px;
+
+        .upper-card {
+            width: 70px;
+            height: 70px;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                height: 100%;
+                color: #24394f;
+                text-decoration: none;
+            }
+            
+        }
+        .lower-card {
+            width: 70px;
+            height: 70px;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                height: 100%;
+                color: #24394f;
+                text-decoration: none;
+                position: relative;
+
+                    .dollar {
+                        color: #57b66f;
+                        position: absolute;
+                        left: 15px;
+                    }
+                    .number {
+                        color: #57b66f;
+                        position: absolute;
+                        font-size: 26px;
+                        right: 15px;
+                        top: 5px;
+                    }
+
+                
+                .sale {
+                    padding-top: 30px;
+                }
+            }
+            
         }
     }
 }
