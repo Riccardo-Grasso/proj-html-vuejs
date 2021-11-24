@@ -26,6 +26,7 @@
       </div>
       <a class="proj-link" href="#">READ ABOUT OUR SERVICES</a>
     </div>
+    <img class="triangolo" src="@/assets/triangle-dark.svg" alt="triangolo" />
   </section>
 </template>
 
@@ -38,7 +39,7 @@ export default {
         {
           icon: require("@/assets/trimcut.png"),
           title: "Trim & Cut",
-          text: "Avada Barbers are experts in the  licjety split trim and hair cut. Quick but careful and ridiculously good looking.",
+          text: "Avada Barbers are experts in the  lickety split trim and hair cut. Quick but careful and ridiculously good looking.",
           large: false,
         },
         {

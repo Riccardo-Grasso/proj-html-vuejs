@@ -1,5 +1,6 @@
 <template>
   <section class="blog">
+    <img class="triangolo" src="@/assets/triangle-white.svg" alt="triangolo" />
     <div
       class="container padding-section d-flex flex-column align-items-center"
     >

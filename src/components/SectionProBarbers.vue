@@ -7,6 +7,7 @@
       <h2 class="section-title mb-4">Pro Barbers</h2>
       <a class="proj-link mb-4" href="#">MEET YOUR NEW BARBER</a>
     </div>
+    <img class="triangolo" src="@/assets/triangle-white.svg" alt="triangolo" />
   </section>
 </template>
 
