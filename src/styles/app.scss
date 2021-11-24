@@ -3,9 +3,14 @@
 @import "~font-awesome/css/font-awesome.css";
 
 #app {
-/*     .container { 
-        padding: 0 15%;
-    } */
+    .my-container {
+        width: 100%;
+        padding-right: 15%;
+        padding-left: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .section-title {
         color: $proj-title-grey;
         font-family: 'Playfair Display', serif;
@@ -47,6 +52,10 @@
         color: $proj-golden;
     }
     .padding-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .padding-section-big {
         padding-top: 80px;
         padding-bottom: 80px;
     }

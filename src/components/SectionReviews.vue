@@ -1,7 +1,7 @@
 <template>
   <section class="reviews">
     <div
-      class="container padding-section d-flex flex-column align-items-center"
+      class="my-container padding-section d-flex flex-column align-items-center"
     >
       <div class="on-title bolder fw-bold mb-1">WHAT PEOPLE SAY</div>
       <h2 class="section-title mb-4">Reviews</h2>

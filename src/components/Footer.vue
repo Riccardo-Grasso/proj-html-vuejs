@@ -2,7 +2,7 @@
   <footer>
     <!-- CONTACTS -->
     <section class="contacts pt-5 d-flex flex-column align-items-center">
-      <div class="container">
+      <div class="my-container">
         <div class="row row-cols-3">
           <div class="col col-lat pe-4">
             <img src="@/assets/footer-products.png" alt="img" class="mb-4" />

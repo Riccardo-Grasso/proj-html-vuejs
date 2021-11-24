@@ -1,7 +1,13 @@
 <template>
   <section class="pro-barber">
     <div
-      class="container d-flex flex-column align-items-center padding-section"
+      class="
+        my-container
+        d-flex
+        flex-column
+        align-items-center
+        padding-section-big
+      "
     >
       <div class="on-title bolder fw-bold mb-1">AWARD WINNING</div>
       <h2 class="section-title mb-4">Pro Barbers</h2>

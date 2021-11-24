@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container">
+    <div class="my-container">
       <!-- Navbar contiene logo e icone -->
       <Navbar></Navbar>
       <!-- SEZIONE BARBER-SHOP -->
@@ -11,13 +11,13 @@
           <p class="text mb-4">The Pinnacle of Male Grooming</p>
           <a class="proj-link w-50" href="#">LEARN MORE</a>
         </div>
-        <div class="col right-img">
+        <div class="col right-img pb-5">
           <img src="../assets/header-hero.png" alt="img" class="w-100" />
         </div>
       </section>
     </div>
     <div class="cards">
-      <div class="upper-card mb-2">
+      <div class="upper-card card mb-2">
         <a href="#" class="rounded">
           <div>
             <i class="fa fa-minus-square fs-3" aria-hidden="true"></i>
@@ -25,7 +25,7 @@
           <div class="fw-bold">Demos</div>
         </a>
       </div>
-      <div class="lower-card mb-2">
+      <div class="lower-card card mb-2">
         <a href="#" class="rounded">
           <div class="price fw-bold">
             <div class="dollar">$</div>

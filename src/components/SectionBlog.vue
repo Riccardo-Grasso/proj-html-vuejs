@@ -2,7 +2,7 @@
   <section class="blog">
     <img class="triangolo" src="@/assets/triangle-white.svg" alt="triangolo" />
     <div
-      class="container padding-section d-flex flex-column align-items-center"
+      class="my-container padding-section d-flex flex-column align-items-center"
     >
       <div class="on-title bolder fw-bold mb-1">TALES FROM THE BARBER SHOP</div>
       <h2 class="section-title mb-4">Recent Blog Posts</h2>

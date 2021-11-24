@@ -21,7 +21,7 @@
     </div>
     <a class="proj-link mb-5" href="#">SHOP OUR PRODUCT RANGE</a>
 
-    <div class="container shaving-butter mt-5">
+    <div class="my-container shaving-butter mt-5">
       <div class="row row-cols-2">
         <div class="col col-left">
           <img src="@/assets/shaving_butter.png" alt="" />
@@ -31,12 +31,12 @@
             THIS MONTHS FEATURED PRODUCT
           </div>
           <h2 class="section-title mb-5">Shaving Butter</h2>
-          <p class="paragraph mb-3">
+          <p class="paragraph mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et
             maiores fugit perspiciatis optio ad officiis quo eius! Porro,
             explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <a class="proj-link w-50 mb-5" href="#">BUY NOW</a>
+          <a class="proj-link w-50 mb-4" href="#">BUY NOW</a>
         </div>
       </div>
     </div>
