@@ -14,6 +14,9 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: { Header, Main, Footer },
+  created() {
+    document.title = "Avada Barbers";
+  },
 };
 </script>
 
