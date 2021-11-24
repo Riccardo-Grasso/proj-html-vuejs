@@ -30,11 +30,11 @@
           <div class="on-title bolder fw-bold mb-1">
             THIS MONTHS FEATURED PRODUCT
           </div>
-          <h2 class="section-title mb-4">Shaving Butter</h2>
+          <h2 class="section-title mb-5">Shaving Butter</h2>
           <p class="paragraph mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et
             maiores fugit perspiciatis optio ad officiis quo eius! Porro,
-            explicabo?
+            explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <a class="proj-link w-50 mb-5" href="#">BUY NOW</a>
         </div>
